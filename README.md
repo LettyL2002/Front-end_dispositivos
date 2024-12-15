@@ -1,50 +1,80 @@
-# React + TypeScript + Vite
+# 📚 Biblioteca Virtual 🌸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción General 🖥️
 
-Currently, two official plugins are available:
+Biblioteca Virtual es una aplicación web moderna y elegante desarrollada con React, TypeScript, Tailwind CSS y Shadcn UI, diseñada para gestionar y explorar una colección de libros de manera intuitiva y atractiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características Principales ✨
 
-## Expanding the ESLint configuration
+### 🔍 Exploración de Libros
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Listado completo de libros con filtros avanzados
+- Búsqueda dinámica por título
+- Visualización de disponibilidad de libros
 
-- Configure the top-level `parserOptions` property like this:
+### 👥 Gestión de Autores
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+- Catálogo detallado de autores
+- Información específica de cada autor
+- Búsqueda por nombre de autor
+
+### 🎨 Diseño Elegante
+
+- Paleta de colores en tonos rosa y crema
+- Interfaz responsiva y moderna
+- Experiencia de usuario fluida e intuitiva
+
+## Tecnologías Utilizadas 🚀
+
+- **Frontend**: React con TypeScript
+- **Estilización**: Tailwind CSS
+- **Componentes UI**: Shadcn UI
+- **Gestión de Estado**: React Hooks
+- **Routing**: React Router
+- **Cliente HTTP**: Axios
+
+## Instalación 🛠️
+
+```bash
+# Clonar repositorio
+git clone https://github.com/LettyL2002/Front-end_dispositivos.git
+
+# Instalar dependencias
+cd Front-end_dispositivos
+
+npm install
+# o
+bun install
+
+# Ejecutar en modo desarrollo
+npm run dev
+#o
+bun dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Características Técnicas 💡
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+- Arquitectura de componentes modular
+- Tipado estricto con TypeScript
+- Manejo de errores y estados de carga
+- Consumo de API REST con axios
+- Diseño responsivo mobile-first
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
+## Próximas Mejoras 🌈
+
+- [ ] Implementar sistema de favoritos
+- [ ] Añadir autenticación de usuarios
+- [ ] Integrar recomendaciones de libros
+- [ ] Mejorar visualización de detalles de libros
+
+## Contribuciones 🤝
+
+¡Las contribuciones son bienvenidas! Por favor, lee las pautas de contribución antes de enviar un pull request.
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MIT.
+
+---
+
+**Desarrollado con 💖 para los amantes de la lectura**

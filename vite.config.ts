@@ -9,7 +9,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
+  /*
+    server: {
     proxy: {
       "/api": {
         target: "https://bibliotecaapi-three.vercel.app",
@@ -18,4 +19,5 @@ export default defineConfig({
       },
     },
   },
+  */
 });
